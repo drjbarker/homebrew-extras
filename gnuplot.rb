@@ -52,10 +52,8 @@ class Gnuplot < Formula
   depends_on 'qt'          if build.include? 'qt'
   depends_on :tex          if build.include? 'latex'
 
-  def patches
-    # Strip gnuplot info screen
-    { :p0 => DATA }
-  end
+  # Strip gnuplot info screen
+  patch :p0, :DATA
 
   def install
     if build.with? "aquaterm"
