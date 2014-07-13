@@ -143,8 +143,8 @@ class Gnuplot < Formula
 end
 
 __END__
---- src/plot.c  2014-07-13 10:58:01.000000000 +0100
-+++ src/plot.c  2014-07-13 10:58:11.000000000 +0100
+--- src/plot.c  2013-10-23 19:31:53.000000000 +0100
++++ src/plot.c  2014-07-13 11:12:56.000000000 +0100
 @@ -501,9 +501,6 @@
 
  #endif /* HAVE_SYS_UTSNAME_H */
@@ -153,3 +153,5 @@ __END__
 - show_version(stderr);
 -    else
   show_version(NULL); /* Only load GPVAL_COMPILE_OPTIONS */
+
+ #ifdef WGP_CONSOLE
