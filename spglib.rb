@@ -2,8 +2,8 @@ require "formula"
 
 class Spglib < Formula
   homepage "http://spglib.sourceforge.net/"
-  url "http://sourceforge.net/projects/spglib/files/spglib/spglib-1.6/spglib-1.6.0.tar.gz/download"
-  sha1 "371fe08aa9de04aec1df929f2fca66e02b0b81fa"
+  url "http://sourceforge.net/projects/spglib/files/spglib/spglib-1.6/spglib-1.6.1.tar.gz"
+  sha1 "b32b512257e1a2129dd02903545223aea58c2d42"
 
   def install
 
