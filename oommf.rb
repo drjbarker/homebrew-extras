@@ -23,7 +23,7 @@ end
 
 def exec_script; <<-EOS.undent
   #!/bin/sh
-  tclsh #{prefix}/oommf.tcl $@
+  tclsh #{prefix}/oommf.tcl "$@"
   EOS
 end
 
