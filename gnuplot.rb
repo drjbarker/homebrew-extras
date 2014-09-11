@@ -11,12 +11,6 @@ class Gnuplot < Formula
   url 'https://downloads.sourceforge.net/project/gnuplot/gnuplot/4.6.5/gnuplot-4.6.5.tar.gz'
   sha256 'e550f030c7d04570e89c3d4e3f6e82296816508419c86ab46c4dd73156519a2d'
 
-  bottle do
-    sha1 "5a58adfcff11b2cb99e0933c986be07e9be86831" => :mavericks
-    sha1 "15a49edb10b515bfbc2eeec5e01b7fe6cefb41d9" => :mountain_lion
-    sha1 "dabddfe592ecb9acb43de910e46e4919683ecf6c" => :lion
-  end
-
   head do
     url 'cvs://:pserver:anonymous:@gnuplot.cvs.sourceforge.net:/cvsroot/gnuplot:gnuplot'
 
@@ -144,13 +138,13 @@ __END__
 --- src/plot.c	2013-10-23 19:31:53.000000000 +0100
 +++ src/plot.new.c	2014-07-13 11:12:56.000000000 +0100
 @@ -501,9 +501,6 @@
- 
+
  #endif /* HAVE_SYS_UTSNAME_H */
- 
+
 -    if (interactive)
 -	show_version(stderr);
 -    else
  	show_version(NULL); /* Only load GPVAL_COMPILE_OPTIONS */
- 
+
  #ifdef WGP_CONSOLE
 
