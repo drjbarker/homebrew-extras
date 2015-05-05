@@ -8,8 +8,8 @@ end
 
 class Gnuplot < Formula
   homepage 'http://www.gnuplot.info'
-  url 'https://downloads.sourceforge.net/project/gnuplot/gnuplot/4.6.5/gnuplot-4.6.5.tar.gz'
-  sha256 'e550f030c7d04570e89c3d4e3f6e82296816508419c86ab46c4dd73156519a2d'
+  url 'https://downloads.sourceforge.net/project/gnuplot/gnuplot/4.6.6/gnuplot-4.6.6.tar.gz'
+  sha1 '012bd22b7be32da186b6bb015c0c6d876926c90b'
 
   head do
     url 'cvs://:pserver:anonymous:@gnuplot.cvs.sourceforge.net:/cvsroot/gnuplot:gnuplot'

@@ -11,6 +11,6 @@ class Levmar < Formula
   def install
     system "make"
     lib.install "liblevmar.a"
-	include.install "levmar.h"
+    include.install "levmar.h"
   end
 end
