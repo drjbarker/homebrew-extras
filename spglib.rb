@@ -1,13 +1,11 @@
-require "formula"
-
 class Spglib < Formula
+  desc "C library for finding and handling crystal symmetries"
   homepage "http://spglib.sourceforge.net/"
-  url "http://sourceforge.net/projects/spglib/files/spglib/spglib-1.8/spglib-1.8.1.tar.gz"
-  sha1 "fd82be485ca2a77f9a9c3ff4b75e3ae4547270c4"
+  url "https://downloads.sourceforge.net/project/spglib/spglib/spglib-1.7/spglib-1.7.4.tar.gz"
+  sha256 "a396bf623d2c7bebbc2fec05bfa4e801191d9c8ceb28c16c47d9f8e247896c30"
+  head "https://github.com/atztogo/spglib.git"
 
   def install
-
-    # Remove unrecognized options if warned by configure
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
@@ -15,5 +13,4 @@ class Spglib < Formula
 
     system "make", "install"
   end
-
 end
