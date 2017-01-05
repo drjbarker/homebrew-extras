@@ -3,7 +3,7 @@ require "formula"
 class Oommf < Formula
   url "http://math.nist.gov/oommf/dist/oommf12a5bis_20120928.tar.gz"
   homepage " http://math.nist.gov/oommf"
-  sha1 "454a16009d94e34876199349593696dd0299a7a2"
+  sha256 "7a7e33bc49618e3c24e05de408b5b70a3908a1e0e233c5f6e69d6aa46d1c01a0"
   version "1.2a5"
 
   # remove optimization flags which are not supported by clang
