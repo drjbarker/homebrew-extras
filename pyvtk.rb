@@ -3,7 +3,7 @@ require "formula"
 class Pyvtk < Formula
   homepage "https://pypi.python.org/pypi/PyVTK"
   url "https://pypi.python.org/packages/source/P/PyVTK/PyVTK-0.4.85.tar.gz"
-  sha1 "958369026eada0be13a4cda4629355acf4e878e6"
+  sha256 "4f971e21eb73b44fd4dd52bed1aeea7879e0d9e8debfded651bb8fc9c80033e2"
 
   depends_on :python
 
