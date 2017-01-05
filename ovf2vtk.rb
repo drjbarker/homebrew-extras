@@ -3,7 +3,7 @@ require "formula"
 class Ovf2vtk < Formula
   homepage "http://www.southampton.ac.uk/~fangohr/software/ovf2vtk/"
   url "http://www.southampton.ac.uk/~fangohr/software/ovf2vtk/dist/source/ovf2vtk-0.1.23.tar.gz"
-  sha1 "5d0ca1d8dda3f2091113461b202667e7a92d72f5"
+  sha256 "47638813bb4ef6f6fc49940fc954fd48cfe8bda68c57c7b5284148e6797a1ca3"
 
   depends_on 'pyvtk' => :python
 
