@@ -2,8 +2,8 @@ require "formula"
 
 class Gxhints < Formula
   homepage "http://sourceforge.net/projects/gxhints/"
-  url "http://downloads.sourceforge.net/project/gxhints/gxhints/gxhints-1.0.3/gxhints-1.0.3.tar.gz"
-  sha1 "4480ca1ec1ca6b5a6d434079f0ba466fd2896015"
+  url "http://downloads.sourceforge.net/project/gxhints/gxhints/gxhints-1.1.5/gxhints-1.1.5.tar.gz"
+  sha256 "380eac9c19e6be29da75339c8d892d17712f41e4ac611b4de1f498c52bb27942"
 
   depends_on "batik"
   depends_on "ghostscript"
