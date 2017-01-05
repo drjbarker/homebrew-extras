@@ -13,6 +13,7 @@ class Gxhints < Formula
 
     system "./configure", "--prefix=#{prefix}"
     system "make", "install"
+    system "mv", "gxhconvert.pl", "gxhconvert"
     bin.install "gxhconvert"
   end
 
